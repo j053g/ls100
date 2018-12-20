@@ -3,4 +3,6 @@
 
 puts "What's your name"
 user_name = gets.chomp
-puts "Hello #{user_name}"
+10.times do |i|
+  puts "Hello #{user_name}"
+end
